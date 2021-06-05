@@ -1,0 +1,315 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	
+	/* header start */
+
+	.menu{
+		text-align: right;
+		padding: 20px 0;
+	}
+
+	.menu ul li a{
+		padding: 0px !important;
+		text-align: left;
+		font-size: 20px;
+	}
+
+	/* header end */
+
+	/* slider start */
+	.c-s-p{
+		padding: 60px 0;
+	}
+	.c-h1{
+		font-size: 28px;
+	}
+	.s_text h3 {
+	    margin: 16px 0 0;
+	    width: 100%;
+	    font-size: 18px;
+	}
+
+	.c-p {
+    	margin: 23px 0 25px;
+    	width: 100%;
+	}
+
+	.s_icon i{
+		margin-bottom: 30px;
+		font-size: 35px;
+		color: #010101;
+	}
+
+	.s_img img{
+	width: 100%;
+	}
+
+	/* slider end */
+
+	/* feature start */
+	.f-p{
+		margin:23px 0 0;
+	}
+
+	.f-item{
+		padding: 50px 0 0;
+		text-align: center;
+	}
+	.f-icon i{
+		font-size: 35px;
+	}
+	.f-content h3 {
+    	font-size: 20px;
+    	margin: 15px 0 0;
+	}
+	.f-content p {
+    	width: 85%;
+    	margin: 10px auto 0;
+	}
+
+	/* feature end */
+
+	/* contact start */
+	.con-p{
+		margin:23px 0 0;
+	}
+	.email{
+		margin: 40px 0 0;
+	}
+	.email input{
+		width: 90%;
+		padding: 10px 15px;
+	}
+	.email button{
+		margin: 15px 0 0;
+		padding: 10px 20px;
+	}
+
+	.c-icons{
+		margin: 40px 0 0;
+	}
+
+	.c-icons i{
+		width: 42px;
+		padding: 3px;
+		font-size: 30px;
+	}
+
+	.c-footer{
+		margin: 60px 0 0;
+	}
+	.c-address p{
+		width: 100%;
+		margin: 0 0 8px;
+	}
+
+	.c-link{
+		margin: 20px 0 0;
+	}
+
+	/* contact end */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/* header start */
+
+	.menu{
+		text-align: left;
+		padding: 20px 0;
+	}
+
+	.menu ul li a{
+		text-align: left;
+		padding: 0px !important; 
+	}
+	/* header end */
+
+	/* slider start */
+	.c-s-p{
+		padding: 70px 0;
+	}
+	.c-h1{
+		font-size: 30px;
+	}
+	.s_text h3 {
+	    margin: 18px 0 0;
+	    width: 100%;
+	    font-size: 19px;
+	}
+
+	.c-p{
+    	margin: 25px 0 28px;
+    	width: 100%;
+	}
+
+	.s_icon i{
+		margin-bottom: 35px;
+		font-size: 38px;
+		color: #010101;
+	}
+
+	.s_img img{
+	width: 100%;
+	}
+
+	/* slider end */
+
+	/* feature start */
+	.f-p{
+		margin:23px 0 0;
+	}
+
+	.f-item{
+		padding: 50px 0 0;
+	}
+
+	.f-icon i{
+		font-size: 35px;
+	}
+	.f-content h3 {
+    	font-size: 20px;
+	}
+	.f-content p {
+    	width: 100%;
+    	margin: 10px 0 0;
+	}
+
+	/* feature end */
+
+	/* contact start */
+	.con-p{
+		margin:23px 0 0;
+	}
+	.email{
+		margin: 45px 0 0;
+	}
+	.email input{
+		padding: 12px 15px;
+	}
+	.email button{
+		margin: 0 0 0 10px;
+		padding: 12px 20px;
+	}
+
+	.c-icons{
+		margin: 45px 0 0;
+	}
+
+	.c-icons i{
+		width: 42px;
+		padding: 3px;
+		font-size: 30px;
+	}
+
+	.c-footer{
+		margin: 60px 0 0;
+	}
+	.c-address{
+		margin: 0 0 20px;
+	}
+	.c-address p{
+		width: 100%;
+		margin: 0 0 8px;
+	}
+
+	/* .c-link{
+		margin: 20px 0 0;
+	} */
+
+	/* contact end */
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* header start */
+
+	.menu{
+		text-align: right;
+		padding: 20px 0;
+	}
+
+	.menu ul li a{
+		text-align: left;
+		padding: 0px !important; 
+	}
+
+	/* header end */
+
+		/* feature start */
+	.f-p{
+		margin:25px 0 0;
+	}
+
+	.f-item{
+		padding: 60px 0 0;
+	}
+
+	.f-icon i{
+		font-size: 40px;
+		margin: 0 auto;;
+	}
+	.f-content h3 {
+    	font-size: 21px;
+	}
+	.f-content p {
+    	width: 90%;
+    	margin: 15px 0 0;
+	}
+
+	/* feature end */
+
+	/* contact start */
+	.con-p{
+		margin:25px 0 0;
+	}
+	.email{
+		margin: 50px 0 0;
+	}
+	.email button{
+		margin: 0 0 0 12px;
+	}
+
+	.c-icons{
+		margin: 50px 0 0;
+	}
+
+	.c-icons i{
+		width: 45px;
+		padding: 3px;
+		font-size: 33px;
+	}
+
+	.c-footer{
+		margin: 80px 0 0;
+	}
+	.c-address p{
+		width: 90%;
+		margin: 0 0 10px;
+	}
+
+	/* contact end */
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+}
+
+/* Extra Extra large devices (Extra Extra large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+	
+
+}
